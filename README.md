@@ -1,8 +1,8 @@
 # Monitoring Your Raspberry Pi with Prometheus and Grafana
 
-This guide provides a step-by-step process to set up **Prometheus**, **Node Exporter**, and **Grafana** on a Raspberry Pi for monitoring system metrics like CPU, memory, and temperature on your local network. Ideal for DevOps beginners or Raspberry Pi enthusiasts exploring observability. Part 2 will cover remote access via SSH.
+This guide provides a step-by-step process to set up **Prometheus**, **Node Exporter**, and **Grafana** on a Raspberry Pi for monitoring system metrics like CPU, memory, and temperature on your local network. Ideal for DevOps beginners or Raspberry Pi enthusiasts exploring observability. 
 
-Tested on a **Raspberry Pi 4** running **Raspbian GNU/Linux 12 (bookworm)**.
+Tested on a **Raspberry Pi** running **Raspbian GNU/Linux 12 (bookworm)**.
 
 ## Why Monitor Your Raspberry Pi?
 
@@ -14,7 +14,7 @@ Together, these tools enable real-time performance tracking with insightful visu
 
 ### Prerequisites
 
-- Raspberry Pi 4 with Raspbian installed.
+- Raspberry Pi with Raspbian installed.
 - SSH enabled (`sudo raspi-config` > Interface Options > SSH > Enable).
 - Basic terminal familiarity.
 - Pi’s local IP address (find it with `hostname -I`).
